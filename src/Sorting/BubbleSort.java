@@ -1,7 +1,7 @@
 package Sorting;
 
 //Time complexity O(N^2)
-//This implementation sorts integers into ascending order
+//Sorts integers into ascending order, by bubbling larger elements to the end
 public class BubbleSort {
     public static void bubbleSort(int[] arr) {
         //The inner loop(j) iterates through each array element, bubbling the largest unsorted element to the end of the unsorted elements
