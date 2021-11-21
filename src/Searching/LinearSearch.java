@@ -3,7 +3,7 @@ package Searching;
 //Time complexity O(N)
 public class LinearSearch {
     //Method to return index at which element is found, or else -1
-    public static int linearSearch(int arr[], int x){
+    public static int linearSearch(int[] arr, int x){
         int n = arr.length;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == x) {

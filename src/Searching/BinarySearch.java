@@ -3,7 +3,7 @@ package Searching;
 //Time complexity O(log n)
 //Searches a SORTED array for a particular element
 public class BinarySearch {
-    public static int binarySearch(int arr[], int x) {
+    public static int binarySearch(int[] arr, int x) {
         //Declare left and right boundaries of search range, and midpoint
         int left = 0;
         int mid;
