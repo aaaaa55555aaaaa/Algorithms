@@ -1,9 +1,13 @@
 package Sorting;
 
+//Time complexity O(N^2)
+//This implementation sorts integers into ascending order
 public class BubbleSort {
     public static void bubbleSort(int[] arr) {
         for (int i = arr.length - 1; i > 0; i--) {
-            for (int j = 0; j < i; j++) {
+            for (int j = 0; j < i; j++) {           //The elements at indexes > i are already sorted
+
+                //Swap elements if the left one was larger than the right
                 if (arr[j] > arr[j + 1]) {
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
