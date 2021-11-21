@@ -1,3 +1,4 @@
+//Time complexity O(N)
 public class LinearSearch {
     //Method to return index at which element is found, or else -1
     public static int search(int arr[], int x){
