@@ -4,8 +4,10 @@ package Sorting;
 //This implementation sorts integers into ascending order
 public class BubbleSort {
     public static void bubbleSort(int[] arr) {
+        //The inner loop(j) iterates through each array element, bubbling the largest unsorted element to the end of the unsorted elements
+        //Each iteration of the outer loop (i) represents one pass of the inner loop. (Descending, because sorted elements will go to the end)
         for (int i = arr.length - 1; i > 0; i--) {
-            for (int j = 0; j < i; j++) {           //The elements at indexes > i are already sorted
+            for (int j = 0; j < i; j++) {           //The elements at indexes > i are already sorted, hence we only need to check while j < i
 
                 //Swap elements if the left one was larger than the right
                 if (arr[j] > arr[j + 1]) {
