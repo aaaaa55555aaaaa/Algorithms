@@ -1,3 +1,5 @@
+package Searching;
+
 //Time complexity O(N)
 public class LinearSearch {
     //Method to return index at which element is found, or else -1

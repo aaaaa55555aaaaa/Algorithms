@@ -1,3 +1,5 @@
+package Searching;
+
 //Time complexity O(log n)
 //Searches a SORTED array for a particular element
 public class BinarySearch {
